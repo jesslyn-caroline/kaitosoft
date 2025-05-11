@@ -26,7 +26,7 @@ function Home() {
                         </button>
                     </div>
                     <div className={`w-1/2 flex items-center justify-center`}>
-                        <img src="/src/assets/hero-img.png" alt="hero-img"/>
+                        <img src="./../assets/hero-img.png" alt="hero-img"/>
                     </div>
                 </div>
             </div>
