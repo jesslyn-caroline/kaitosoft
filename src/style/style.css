@@ -1,13 +1,18 @@
 @import "tailwindcss";
 
+@theme {
+    --color-black: #050315;
+    --color-white: #FBFBFE;
+    --color-dusk-blue: #205295;
+    --color-ball-blue: #11A9C6;
+    --color-bluish: #2C74B3;
+    --color-diamond-blue: #4ED8DF;
+}
+
 * {
     font-family: "Manrope", sans-serif;
 }
 
-@theme {
-    --color-black: #050315;
-    --color-white: #FBFBFE;
-    --color-primary: #205295;
-    --color-secondary: #11A9C6;
-    --color-accent: #4ED8DF;
+h1, h2, h3 {
+    font-family: "Poppins", sans-serif;
 }
