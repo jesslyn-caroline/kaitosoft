@@ -1,10 +1,19 @@
-import { useState } from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
+import Layout from './screens/layout.tsx'
+import Home from './screens/home.tsx'
+import Contact from './screens/contact.tsx'
 
 function App() {
   return (
-    <div>
-      <h1 className={`text-text`}>App</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout/>}>
+          <Route index element={<Home/>}></Route>
+          <Route path="contact" element={<Contact/>}></Route>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
