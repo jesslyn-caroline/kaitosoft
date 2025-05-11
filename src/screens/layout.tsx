@@ -7,9 +7,7 @@ function Layout() {
         <div className={`w-full bg-white flex justify-center`}>
             <div className={`max-w-[1624px] w-screen h-screen flex flex-col`}>
                 <Navbar/>
-                <div className={`mt-16`}>
-                    <Outlet/>
-                </div>
+                <Outlet/>
             </div>
         </div>
     )
