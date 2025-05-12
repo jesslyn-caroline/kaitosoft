@@ -17,10 +17,10 @@ function Home() {
                             <span className={`text-ball-blue`}>Digital Masterpiece</span>
                             <span>,</span>
                             <br/>
-                            <span>One Line of Code at a Time</span>
+                            <span>Tailored for You</span>
                         </h1>
                         <h3 className={`text-xl text-black`}>
-                            We turn your ideas into captivating modern websites, tailored to your need.
+                            We build responsive, modern website, from simple landing pages to scalable web solutions, designed to meet your needs.
                         </h3>
                         <button className={`w-fit px-4 py-2 bg-bluish rounded-[18px] flex flex-row items-center space-x-2`}>
                             <span className={`text-white text-lg font-semibold`}>Get Your Website</span>
@@ -34,12 +34,12 @@ function Home() {
                     whileInView={{opacity: 1, x: 0}}
                     transition={{duration: 1}}
                     className={`w-1/2 flex items-center justify-center`}>
-                        <img src="/images/hero-img.png" alt="hero-img"/>
+                        <img src="/images/hero-img.png" alt="hero-img"  className={`w-[450px] h-[450px]`}/>
                     </motion.div>
                 </div>
             </div>
 
-            {/* What we offer */}
+            {/* Our service */}
             <div className={`w-full h-screen bg-red-500`}>
                 
             </div>
