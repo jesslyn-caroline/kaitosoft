@@ -8,7 +8,7 @@ function Navbar() {
                     <span className={`text-dark-blue`}>kaito</span>
                     <span className={`text-bluish`}>soft</span>
                 </h1>
-                <img src="./../assets/up-chevron.png" alt="up-chevron"/>
+                <img src="/images/up-chevron.png" alt="up-chevron"/>
             </div>
             <div>
                 
