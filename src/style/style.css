@@ -9,10 +9,14 @@
     --color-diamond-blue: #4ED8DF;
 }
 
-* {
+body {
+    overflow-x: hidden;
+}
+
+h3, button {
     font-family: "Manrope", sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-family: "Poppins", sans-serif;
 }
