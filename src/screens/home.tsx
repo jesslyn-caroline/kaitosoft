@@ -12,6 +12,7 @@ function Home() {
                     initial={{opacity: 0, x: "-100%"}}
                     whileInView={{opacity: 1, x: 0}}
                     transition={{duration: 1}}
+                    viewport={{ once: true }}
                     className={`w-1/2 px-18 flex flex-col justify-center space-y-4`}>
                         <h1 className={`text-3xl font-bold text-black`}>
                             <span>Crafting </span>
@@ -34,6 +35,7 @@ function Home() {
                     initial={{opacity: 0, x: "100%"}}
                     whileInView={{opacity: 1, x: 0}}
                     transition={{duration: 1}}
+                    viewport={{ once: true }}
                     className={`w-1/2 flex items-center justify-center`}>
                         <img src="/images/hero-img.png" alt="hero-img"  className={`w-[450px] h-[450px]`}/>
                     </motion.div>
