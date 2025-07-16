@@ -1,9 +1,9 @@
 function Hero() {
     return (
-        <section className={`w-full h-screen px-10 md:px-12 lg:px-24 pb-8 pt-18 flex flex-col justify-center`}>
-            <div className={`w-full h-full md:bg-[#F4F8FB] rounded-xl flex flex-col md:flex-row`}>
+        <section className={`w-full h-screen px-10 md:px-12 lg:px-24 md:pb-8 pt-18`}>
+            <div className={`w-full h-full md:bg-[#F4F8FB] rounded-xl flex flex-col md:flex-row items-center justify-center`}>
                 <div className={`w-full md:w-5/10 md:px-10 lg:px-16 flex flex-col justify-center space-y-4`}>
-                    <h1 className={`text-2xl md:text-xl lg:text-3xl font-bold`}>
+                    <h1 className={`text-3xl md:text-xl lg:text-3xl font-bold`}>
                         Crafting 
                         <br/>
                         <span className={`text-pretty text-secondary`}> Digital Masterpiece</span>, 
@@ -21,7 +21,7 @@ function Hero() {
                     </button>
                 </div>
                 <div className={`flex justify-center items-center p-6`}>
-                    <img src="/images/hero-img.png" alt="hero" className={`w-md`}/>
+                    <img src="/images/hero-img.png" alt="hero" className={`w-full md:w-md`}/>
                 </div>
             </div>
         </section>
