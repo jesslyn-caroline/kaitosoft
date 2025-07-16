@@ -10,10 +10,10 @@ function Hero() {
                         <br/>
                         Tailored for You
                     </h1>
-                    <h2 className={`text-sm xl:text-lg`}>
+                    <h2 className={`text-md md:text-xs xl:text-lg`}>
                         We build responsive, modern websites, from simple landing pages to scalable web solutions, designed to meet your needs.
                     </h2>
-                    <button className={`text-md lg:text-lg text-white w-fit bg-accent-2 px-4 py-2 rounded-xl flex flex-row items-center space-x-2`}>
+                    <button className={`text-md md:text-sm lg:text-lg text-white w-fit bg-accent-2 px-4 md:px-3 lg:px-4 py-2 md:py-1 lg:py-2 rounded-xl flex flex-row items-center space-x-2`}>
                         <span>Get Your Website</span>
                         <div className={`w-6 h-6 bg-white rounded-full flex justify-center items-center`}>
                             <i className={`ri-arrow-right-line text-black`}/>
@@ -21,7 +21,7 @@ function Hero() {
                     </button>
                 </div>
                 <div className={`flex justify-center items-center p-6`}>
-                    <img src="/images/hero-img.png" alt="hero" className={`w-full md:w-md`}/>
+                    <img src="/images/hero-img.png" alt="hero" className={`w-full sm:w-md`}/>
                 </div>
             </div>
         </section>
