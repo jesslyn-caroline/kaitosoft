@@ -21,7 +21,7 @@ function Hero() {
                     </button>
                 </div>
                 <div className={`flex justify-center items-center p-6`}>
-                    <img src="/images/hero-img.png" alt="hero" className={`w-full sm:w-md`}/>
+                    <img src="/images/hero-img.png" alt="hero" className={`w-full md:w-md`}/>
                 </div>
             </div>
         </section>
