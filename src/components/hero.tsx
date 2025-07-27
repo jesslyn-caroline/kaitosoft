@@ -4,12 +4,12 @@ function Hero() {
         <section className={`w-full h-screen px-6 lg:px-16 pt-18 pb-12`}>
             <div className={`w-full h-full lg:bg-[#F4F8FB] rounded-lg flex flex-col lg:flex-row`}>
                 <div className={`w-full lg:w-1/2 lg:px-14 flex flex-col justify-center items-start gap-2.5`}>
-                    <h1 className={`text-2xl lg:text-3xl font-bold`}>
+                    <h1 className={`text-3xl lg:text-3xl font-bold`}>
                         <span>Crafting</span> <br />
                         <span className={`text-secondary`}>Digital Masterpiece</span><span>,</span> <br />
                         <span>Tailored for You</span>
                     </h1>
-                    <p className={`text-sm lg:text-md`}>
+                    <p className={`text-md lg:text-md`}>
                         We build responsive, modern websites, from simple landing pages to scalable web solutions, designed to meet your needs.
                     </p>
                     <button className={`bg-accent-2 flex flex-row items-center px-4 py-1.5 gap-3 rounded-xl`}>
