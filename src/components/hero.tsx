@@ -10,7 +10,7 @@ function Hero() {
                         <br/>
                         Tailored for You
                     </h1>
-                    <h2 className={`text-md md:text-xs xl:text-lg`}>
+                    <h2 className={`text-md md:text-sm xl:text-lg`}>
                         We build responsive, modern websites, from simple landing pages to scalable web solutions, designed to meet your needs.
                     </h2>
                     <button className={`text-md md:text-sm lg:text-lg text-white w-fit bg-accent-2 px-4 md:px-3 lg:px-4 py-2 md:py-1 lg:py-2 rounded-xl flex flex-row items-center space-x-2`}>
