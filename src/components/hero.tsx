@@ -19,7 +19,7 @@ function Hero() {
                         </div>
                     </button>
                 </div>
-                <div className={`w-full mt-8 sm:mt-0 lg:w-1/2 lg:px-14 flex items-center justify-center`}>
+                <div className={`w-full mt-16 sm:mt-0 lg:w-1/2 lg:px-14 flex items-center justify-center`}>
                     <img src="/images/hero.png" alt="hero" />
                 </div>
             </div>
