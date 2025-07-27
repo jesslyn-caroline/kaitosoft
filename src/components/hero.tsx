@@ -1,7 +1,7 @@
 function Hero() {
     // alert(window.innerWidth)
     return (
-        <section className={`w-full h-screen px-6 lg:px-16 pt-18 pb-12`}>
+        <section className={`w-full h-screen px-6 sm:px-8 lg:px-16 pt-18 pb-12`}>
             <div className={`w-full h-full lg:bg-[#F4F8FB] rounded-lg flex flex-col sm:flex-row lg:flex-row justify-center`}>
                 <div className={`w-full lg:w-1/2 lg:px-14 flex flex-col justify-center items-start gap-2.5`}>
                     <h1 className={`text-3xl sm:text-2xl lg:text-3xl font-bold`}>
