@@ -1,8 +1,8 @@
 function Hero() {
     return (
         <section className={`w-full h-screen px-10 md:px-12 lg:px-24 md:pb-8 pt-18`}>
-            <div className={`w-full h-full md:bg-[#F4F8FB] rounded-xl flex flex-col md:flex-row items-center justify-center`}>
-                <div className={`w-full md:w-5/10 md:px-10 lg:px-16 flex flex-col justify-center space-y-4`}>
+            <div className={`w-full h-full lg:bg-[#F4F8FB] rounded-xl flex flex-col md:flex-row items-center justify-center`}>
+                <div className={`w-full md:w-5/10 lg:px-16 flex flex-col justify-center space-y-4`}>
                     <h1 className={`text-3xl md:text-xl lg:text-3xl font-bold`}>
                         Crafting 
                         <br/>
