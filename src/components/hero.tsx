@@ -12,7 +12,7 @@ function Hero() {
                     <p className={`text-md sm:text-sm lg:text-md xl:text-lg`}>
                         We build responsive, modern websites, from simple landing pages to scalable web solutions, designed to meet your needs.
                     </p>
-                    <button className={`bg-accent-2 flex flex-row items-center px-4 py-1.5 gap-3 rounded-xl`}>
+                    <button className={`bg-accent-2 flex flex-row items-center px-4 py-1.5 xl:py-2 gap-3 rounded-xl`}>
                         <div className={`text-md sm:text-sm lg:text-md xl:text-lg text-white font-medium`}>Get Your Website</div>
                         <div className={`w-6 h-6 bg-white rounded-full flex items-center justify-center`}>
                             <i className={`ri-arrow-right-line`} />
