@@ -15,8 +15,8 @@ function OurServices() {
             <p className={`text-md`}>
                 Solutions made to fit your needs. Choose what works best for you.
             </p> 
-            <div className={`flex flex-col sm:grid sm:grid-cols-2 gap-4 sm:gap-6 lg:gap-10`}>
-                <div className={`bg-accent-2 py-6 md:py-8 px-6 md:px-8 lg:px-10 rounded-xl flex flex-col gap-1.5`}>
+            <div className={`flex flex-col sm:grid sm:grid-cols-2 gap-4 sm:gap-6 lg:gap-8`}>
+                <div className={`bg-accent-2 py-6 md:py-8 px-4 md:px-8 lg:px-10 rounded-xl flex flex-col gap-1.5`}>
                     <img src="/images/person.png" alt="person" className={`w-14`}/>
                     <h3 className={`text-white text-lg font-semibold`}>Personal Website — Make Your Mark Online!</h3>
                     <p className={`text-white text-md`}>
@@ -25,7 +25,7 @@ function OurServices() {
                         freelancers, or students.
                     </p>
                 </div>
-                <div className={`bg-accent-2 py-6 md:py-8 px-6 md:px-8 lg:px-10 rounded-xl flex flex-col gap-1.5`}>
+                <div className={`bg-accent-2 py-6 md:py-8 px-4 md:px-8 lg:px-10 rounded-xl flex flex-col gap-1.5`}>
                     <img src="/images/success.png" alt="person" className={`w-14`}/>
                     <h3 className={`text-white text-lg font-semibold`}>Business Page — Make Your Brand Stand Out!</h3>
                     <p className={`text-white text-md`}>
