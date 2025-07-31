@@ -25,7 +25,7 @@ function OurServices() {
                         freelancers, or students.
                     </p>
                 </div>
-                <div className={`bg-accent-2 py-6 md:py-8 px-6 smd:px-10 rounded-xl flex flex-col gap-1.5`}>
+                <div className={`bg-accent-2 py-6 md:py-8 px-6 md:px-10 rounded-xl flex flex-col gap-1.5`}>
                     <img src="/images/success.png" alt="person" className={`w-14`}/>
                     <h3 className={`text-white text-lg font-semibold`}>Business Page — Make Your Brand Stand Out!</h3>
                     <p className={`text-white text-md`}>
