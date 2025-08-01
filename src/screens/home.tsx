@@ -3,6 +3,7 @@
 import Hero from "../components/hero"
 import HowWeWork from "../components/how-we-work"
 import OurServices from "../components/our-services"
+import WhyChoose from "../components/why-choose"
 
 function Home() {
     return (
@@ -10,6 +11,7 @@ function Home() {
             <Hero />
             <OurServices />
             <HowWeWork />
+            <WhyChoose />
         </div>
     )
 }
