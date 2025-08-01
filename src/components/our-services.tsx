@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function OurServices() {
     return (
-        <section className={`w-full h-screen md:h-fit lg:h-screen px-6 sm:px-10 lg:px-24 pb-12 flex flex-col gap-3`}>
+        <section className={`w-full h-screen min-h-fit md:h-fit lg:h-screen px-6 sm:px-10 lg:px-24 pb-12 flex flex-col gap-3`}>
             <div>
                 <h2 className={`text-primary text-lg xl:text-xl 2xl:text-2xl font-semibold`}>Our Services</h2>
                 <h1 className={`text-2xl font-bold`}>Websites Built for Your Goals</h1>
