@@ -2,7 +2,7 @@ function Hero() {
     // alert(window.innerWidth)
     return (
         <section className={`min-h-screen w-full h-screen md:h-fit lg:h-screen px-6 sm:px-10 lg:px-24 pt-18 md:pt-32 lg:pt-18 pb-12`}>
-            <div className={`w-full h-full lg:bg-[#F4F8FB] rounded-lg flex flex-col sm:flex-row lg:flex-row justify-center sm:gap-5`}>
+            <div className={`w-full h-full lg:bg-[#F4F8FB] rounded-lg flex flex-col md:flex-row justify-center sm:gap-5`}>
                 <div className={`w-full lg:w-1/2 lg:pl-12 lg:pr-6 flex flex-col justify-center items-start gap-2.5 2xl:gap-3.5`}>
                     <h1 className={`text-3xl sm:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold 2xl:leading-tight`}>
                         <span>Crafting</span> <br />
