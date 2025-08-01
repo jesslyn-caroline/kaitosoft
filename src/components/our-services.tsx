@@ -37,7 +37,7 @@ function OurServices() {
             </div>
             <div className={`flex justify-end`}>
                 <Link to="/contact" className={`w-fit mt-8 flex items-center gap-2 border border-transparent border-b-black border-b-2`}>
-                    <span className={`text-lg font-semibold`}>Get Yours Now!</span>
+                    <span className={`text-md md:text-lg font-semibold`}>Get Yours Now!</span>
                     <i className={`ri-arrow-right-line text-xl`} />
                 </Link>
             </div>
