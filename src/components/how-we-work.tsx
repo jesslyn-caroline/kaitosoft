@@ -2,7 +2,7 @@ import WorkPointCard from "./work-point-card";
 
 function HowWeWork() {
     return (
-        <section className={`w-full h-fit px-6 sm:px-10 lg:px-24 py-12 bg-secondary flex flex-col gap-3`}>
+        <section className={`w-full min-h-fit h-fit px-6 sm:px-10 lg:px-24 py-12 bg-secondary flex flex-col gap-3`}>
             <div>
                 <h2 className={`text-white text-lg xl:text-xl 2xl:text-2xl font-semibold`}>How we work</h2>
                 <h1 className={`text-white text-2xl font-bold`}>From Idea to Launch</h1>
