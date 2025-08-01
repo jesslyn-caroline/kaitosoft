@@ -3,8 +3,8 @@ function WhyChoose() {
         <section className={`w-full min-h-fit h-fit px-6 sm:px-10 lg:px-24 py-12  flex flex-col gap-3`}>
             <div>
                 <h2 className={`text-primary text-lg xl:text-xl 2xl:text-2xl font-semibold`}>Why Choose Kaitosoft</h2>
-                <div className={`flex flex-row gap-10`}>
-                    <div className={`w-2/3 flex flex-col gap-1 text-md`}>
+                <div className={`flex flex-col md:flex-row gap-5 md:gap-10`}>
+                    <div className={`w-full md:w-2/3 flex flex-col gap-1 text-md`}>
                         <h1 className={`text-2xl font-bold`}>More Than Code — We Create Impact</h1>
                         <p className={`mt-3`}>
                             A great website is more than just code. It's about creating an
