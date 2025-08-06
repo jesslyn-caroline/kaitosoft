@@ -51,7 +51,7 @@ function OurServices() {
                 <motion.div 
                     initial={{x: "50%", opacity: 0}}
                     whileInView={{x: "0%", opacity: 1}}
-                    transition={{duration: 1, delay: 0.15}}
+                    transition={{duration: 1, delay: 0.1}}
                     viewport={{ once: true, amount: 0.3}}
                     className={`bg-accent-2 py-6 md:py-8 px-6 md:px-8 lg:px-10 rounded-xl flex flex-col gap-1.5`}>
                     <img src="/images/success.png" alt="person" className={`w-14`}/>
