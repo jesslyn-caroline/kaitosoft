@@ -12,8 +12,8 @@ function WhyChoose() {
                     className={`text-primary text-lg xl:text-xl 2xl:text-2xl font-semibold`}>
                     Why Choose Kaitosoft
                 </motion.h2>
-                <div className={`flex flex-col lg:flex-row gap-5 md:gap-10`}>
-                    <div className={`w-full md:w-2/3 flex flex-col gap-3 text-md`}>
+            <div className={`flex flex-col lg:flex-row gap-3 lg:gap-5 md:gap-10`}>
+                    <div className={`w-full lg:w-2/3 flex flex-col gap-3 text-md`}>
                         <motion.h1 
                             initial={{x: "-50%", opacity: 0}}
                             whileInView={{x: "0%", opacity: 1}}
