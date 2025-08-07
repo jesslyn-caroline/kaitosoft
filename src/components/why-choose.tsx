@@ -12,7 +12,7 @@ function WhyChoose() {
                     className={`text-primary text-lg xl:text-xl 2xl:text-2xl font-semibold`}>
                     Why Choose Kaitosoft
                 </motion.h2>
-                <div className={`flex flex-col lg:flex-row gap-3 lg:gap-5`}>
+                <div className={`flex flex-col lg:flex-row gap-3 lg:gap-5 xl:gap-7`}>
                     <div className={`w-full lg:w-2/3 flex flex-col gap-3 text-md`}>
                         <motion.h1 
                             initial={{x: "-50%", opacity: 0}}
@@ -27,12 +27,14 @@ function WhyChoose() {
                             initial="hidden" whileInView="show"
                             viewport={{ once: true, amount: 0.3 }}>
                             <motion.p 
-                                variants={{hidden: {x: "-50%", opacity: 0}, show: {x: "0%", opacity: 1, transition: { duration: 1 }}, }}>
+                                variants={{hidden: {x: "-50%", opacity: 0}, show: {x: "0%", opacity: 1, transition: { duration: 1 }}, }}
+                                className={`text-md xl:text-lg 2xl:text-xl`}>
                                 A great website is more than just code. It's about creating an
                                 experience.
                             </motion.p>
                             <motion.p
-                                variants={{hidden: {x: "-50%", opacity: 0}, show: {x: "0%", opacity: 1, transition: { duration: 1 }}, }}>
+                                variants={{hidden: {x: "-50%", opacity: 0}, show: {x: "0%", opacity: 1, transition: { duration: 1 }}, }}
+                                className={`text-md xl:text-lg 2xl:text-xl`}>
                                 At Kaitosoft, we don’t just build websites; we build solutions
                                 tailored to your needs. With a focus on innovation and user
                                 experience, we ensure every project is crafted to deliver
@@ -50,8 +52,8 @@ function WhyChoose() {
                             className={`bg-accent-2 px-5 py-4 flex flex-row items-center gap-3 rounded-lg`}>
                             <i className={`ri-paint-brush-fill text-3xl text-white rotate-315`} />
                             <div className={`text-white`}>
-                                <h1 className={`text-md font-bold`}>Tailored Solutions</h1>
-                                <p className={`text-md font-light`}>Understanding your goals and defining the roadmap.</p>
+                                <h1 className={`text-md xl:text-lg 2xl:text-xl font-bold`}>Tailored Solutions</h1>
+                                <p className={`text-md xl:text-lg 2xl:text-xl font-light`}>Understanding your goals and defining the roadmap.</p>
                             </div>
                         </motion.div>
                         <motion.div 
@@ -59,8 +61,8 @@ function WhyChoose() {
                             className={`bg-secondary px-5 py-4 flex flex-row items-center gap-3 rounded-lg`}>
                             <i className={`ri-service-fill text-3xl text-white`} />
                             <div className={`text-white`}>
-                                <h1 className={`text-md font-bold`}>Seamless Collaboration</h1>
-                                <p className={`text-md font-light`}>
+                                <h1 className={`text-md xl:text-lg 2xl:text-xl font-bold`}>Seamless Collaboration</h1>
+                                <p className={`text-md xl:text-lg 2xl:text-xl font-light`}>
                                     We keep you in the loop, ensuring your vision
                                     stays at the heart of the process.
                                 </p>
