@@ -7,7 +7,7 @@ import WhyChoose from "../components/why-choose"
 
 function Home() {
     return (
-        <div className={`w-full flex flex-col overflow-y-scroll scroll-bar-hidden`}>
+        <div className={`w-full flex flex-col overflow-x-hidden overflow-y-scroll scroll-bar-hidden`}>
             <Hero />
             <OurServices />
             <HowWeWork />
